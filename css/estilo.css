@@ -1,0 +1,713 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+.contenedor{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.fila{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+
+[class*="col-"]{
+	float: left;
+	/*border: 1px solid black;*/
+	/*padding: 10px;*/
+}
+
+
+/* PANTALLA DE ESCRITORIO GRANDE -- LARGE (lg) */
+
+@media(min-width: 1200px){
+
+	.col-lg-12{width: 100%;}
+	.col-lg-11{width: 91.66666666%;}
+	.col-lg-10{width: 83.33333333%;}
+	.col-lg-9{width: 75%;}
+	.col-lg-8{width: 66.66666667%;}
+	.col-lg-7{width: 58.33333333%;}
+	.col-lg-6{width: 50%;}
+	.col-lg-5{width: 41.66666667%;}
+	.col-lg-4{width: 33.33333333%;}
+	.col-lg-3{width: 25%;}
+	.col-lg-2{width: 16.66666666%;}
+	.col-lg-1{width: 8.333333333%;}
+
+	/**/
+	#contactenos div#cajaContactenos #cajahija #hijamayor textarea{
+		position: relative;
+		width: 97%;
+		margin-left: 3%;
+		padding-bottom: 10%;
+		background: #dce9d7;
+		margin-bottom: 20px;
+		border: 0;
+	}
+	#contactenos div#cajaContactenos #cajahija #hijamayor input{
+		position: relative;
+		width: 97%;
+		margin-left: 3%;
+		background: black;
+		color: white;
+		text-align: center;
+		padding: 2.8%;
+		border: 0;
+	}
+	/**/
+}
+
+/* PANTALLA DE ESCRITORIO MEDIANA -- MEDIUM (md) */
+
+@media(max-width: 1199px) and (min-width: 992px){
+
+	.col-md-12{width: 100%;}
+	.col-md-11{width: 91.66666666%;}
+	.col-md-10{width: 83.33333333%;}
+	.col-md-9{width: 75%;}
+	.col-md-8{width: 66.66666667%;}
+	.col-md-7{width: 58.33333333%;}
+	.col-md-6{width: 50%;}
+	.col-md-5{width: 41.66666667%;}
+	.col-md-4{width: 33.33333333%;}
+	.col-md-3{width: 25%;}
+	.col-md-2{width: 16.66666666%;}
+	.col-md-1{width: 8.333333333%;}
+
+	/**/
+	#contactenos div#cajaContactenos #cajahija #hijamayor textarea{
+		position: relative;
+		width: 97%;
+		margin-left: 3%;
+		padding-bottom: 10%;
+		background: #dce9d7;
+		margin-bottom: 20px;
+		border: 0;
+	}
+	#contactenos div#cajaContactenos #cajahija #hijamayor input{
+		position: relative;
+		width: 97%;
+		margin-left: 3%;
+		background: black;
+		color: white;
+		text-align: center;
+		padding: 2.8%;
+		border: 0;
+	}
+	/**/
+}
+
+/*PANTALLA DE TABLET - SMALL (sm)*/
+
+@media(max-width: 991px) and (min-width: 768px){
+
+	.col-sm-12{width: 100%;}
+	.col-sm-11{width: 91.66666666%;}
+	.col-sm-10{width: 83.33333333%;}
+	.col-sm-9{width: 75%;}
+	.col-sm-8{width: 66.66666667%;}
+	.col-sm-7{width: 58.33333333%;}
+	.col-sm-6{width: 50%;}
+	.col-sm-5{width: 41.66666667%;}
+	.col-sm-4{width: 33.33333333%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-2{width: 16.66666666%;}
+	.col-sm-1{width: 8.333333333%;}
+		border-right: none;
+	
+
+
+	/* Bordes del nav */
+	nav ul div li#borde{
+		border: none;
+	}
+
+	nav ul div li#margen{
+		display: none;
+	}
+
+  /* Fin bordes del nav */
+
+  /*padding-bottom: 5px;*/
+	/* Centrado Bottom */
+
+	#bottom ul div li h1{
+	margin: 13px 18px;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+	}
+
+	#bottom ul div li ol li{
+	text-align: center;
+	list-style: inside;
+	color: white;
+	font-size: 15px;
+	}
+
+	/* Fin centrado Bottom */
+
+
+	/* CENTRADO IMAGEN QUIENES SOMOS */
+	section#QuienesSomos div div div#imagenQuienesSomos img{
+		position: relative;
+		width: 90%;
+		top: 10%;
+	}
+	/* FIN CENTRADO IMAGEN QUIENES SOMOS */
+
+	/* BORDES DEL PARRAFO QUIENES SOMOS */
+	section#QuienesSomos div div p{
+		padding-bottom: 2%;
+	}
+	/* FIN BORDE DEL PARRAFO QUIENES SOMOS */
+
+	#contactenos div#cajaContactenos #cajahija #hijamayor textarea{
+		position: relative;
+		width: 100%;
+		margin-top: 20px;
+		padding-bottom: 10%;
+		background: #dce9d7;
+		margin-bottom: 20px;
+		border: 0;
+	}
+
+
+	#bottom ul div li#margenli{
+		padding-bottom: 50px;
+	}
+}
+
+
+/*PANTALLA DE PHONES - EXTRA SMALL (xs)*/
+
+@media(max-width: 767px){
+
+	.col-xs-12{width: 100%;}
+	.col-xs-11{width: 91.66666666%;}
+	.col-xs-10{width: 83.33333333%;}
+	.col-xs-9{width: 75%;}
+	.col-xs-8{width: 66.66666667%;}
+	.col-xs-7{width: 58.33333333%;}
+	.col-xs-6{width: 50%;}
+	.col-xs-5{width: 41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666666%;}
+	.col-xs-1{width: 8.333333333%;}
+
+	/* Bordes del nav */
+	nav ul div li#borde{
+		border-right: none;
+		/*padding-bottom: 5px;*/
+	}
+
+	nav ul div li#margen{
+		display: none;
+	}
+
+	nav ul div li#margen{
+		margin-right: 10px;
+		padding-bottom: 10px;
+	}
+	/* Fin bordes del nav */
+
+	/* Centrado Bottom */
+
+	#bottom ul div li h1{
+	margin: 13px 18px;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+	}
+
+	#bottom ul div li ol li{
+	text-align: center;
+	list-style: inside;
+	color: white;
+	font-size: 15px;
+	}
+	/* Fin centrado Bottom */
+
+	/* CENTRADO IMAGEN QUIENES SOMOS */
+	section#QuienesSomos div div div#imagenQuienesSomos img{
+		position: relative;
+		width: 80%;
+		left: 5%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+	/* FIN CENTRADO IMAGEN QIENES SOMOS */
+
+	/* BORDES DEL PARRAFO QUIENES SOMOS */
+	section#QuienesSomos div div p{
+		position: relative;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-bottom: 6%;
+	}
+	/* FIN BORDE DEL PARRAFO QUIENES SOMOS */
+
+	section#Servicios #cajaServicios #lista li img{
+		position: relative;
+		width: 95%;
+		left: 7%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+
+	#contactenos div#cajaContactenos #cajahija #hijamayor textarea{
+		position: relative;
+		width: 100%;
+		margin-top: 20px;
+		padding-bottom: 10%;
+		background: #dce9d7;
+		margin-bottom: 20px;
+		border: 0;
+	}
+
+	#Servicios #cajaServicios1 #cajahijaservicios #hijamayor1 ul li h1{
+		position: absolute;
+		z-index: 1;
+		top: 12px;
+		left: 12px;
+		color: #4d545a;
+		font-weight: 100;
+		font-size: 15px;
+	}
+
+	#Servicios #cajaServicios1 #cajahijaservicios #hijamayor1 ul li p{
+		display: none;
+		
+	}
+
+
+	#bottom ul div li#margenli{
+		padding-bottom: 50px;
+	}
+}
+
+
+/* ------------ HEADER ------------ */
+
+
+header div{
+	padding: 10px;
+	position: relative;
+	background: url(../img/cabezote.jpeg);
+}
+
+header div div{
+	background: white;
+	border-radius: 25px;
+}
+
+header div div h1{
+	text-align: center;
+	background: linear-gradient(120deg, #2980b9, #8e44ad);
+	color: transparent;
+	background-clip: text;
+	animation: animateColor 8s linear infinite;
+}
+
+@keyframes animateColor{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+/* ------------ FIN HEADER ------------ */
+
+/* ------------ NAV ------------ */
+
+nav ul div{
+	position: relative;
+	padding: 0;
+	background: url(../img/nav.jpeg);
+}
+
+nav ul div li{
+	line-height: 43px;
+	border-right: 1px solid white;
+	/*padding: 10px;*/
+	/*background: url(../img/nav.jpeg);*/
+	text-align: center;
+}
+
+nav ul div li a{
+	color: white;
+	list-style: none;
+}
+
+	
+nav ul div li{
+	 background-image: linear-gradient(50deg, #1b909e 50%, transparent 50%);
+     border-color: white;
+     background-position: 100%;
+     background-size: 250%;
+     text-shadow: 2px 2px 2px black; 
+     transition: background 0.2s ease-in-out;
+}
+	
+nav ul div li:hover{
+		background-position: 0; 
+		
+}
+/* ------------ FIN NAV ------------ */
+
+/* ------------ SLIDE ------------ */
+
+#slide ul li{
+	background: url(../img/slide.jpeg);
+	background-size: cover;
+}
+
+#slide ul li:hover {filter: opacity(.5);}
+/* ------------ FIN SLIDE ------------ */
+
+/* ------------ BOTONERA SLIDE ------------ */
+
+#botoneraSlide{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 26px;
+	/*background: rgba(70, 255, 0, .5);*/
+	background: url(../img/backBotonesSlide.jpeg);
+}
+
+#botoneraSlide ul{
+	top: 3px;
+	position: relative;
+	margin: auto;
+	width: 100px;
+	height: 26px;
+	/*background: rgba(255, 0, 0, .5);*/
+}
+
+#botoneraSlide ul li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background: #232d80;
+	border: 3px solid white;
+	margin: 3px 2px;
+}
+
+/* ------------ FIN BOTONERA SLIDE ------------ */
+
+/*-----------SECTION INICIO---------*/
+
+section#Inicio div{
+	background: white;
+}
+
+
+section#Inicio div li h1{
+	margin: 23px 27px;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+section#Inicio div li p{
+	margin: 23px 27px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+section#Inicio div li div img{
+	width: 80%;
+}
+section#Inicio div li div img:hover {filter: opacity(.8);}
+
+/*----------FIN SECTION INICIO----------*/
+
+/*---------SECTION QUIENES SOMOS----------*/
+
+section#QuienesSomos div{
+	background: white;
+	position: relative;
+}
+
+section#QuienesSomos div h1{
+	position: relative;
+	top: 15px;
+	left: 27px;
+	color: #1f1d21;
+	font-weight: 100;
+	z-index: 1;
+}
+
+section#QuienesSomos div hr{
+	position: relative;
+	/*padding-bottom: 20px;*/
+	width: 96%;
+	top: 20px;
+	z-index: 1;
+	margin: auto;
+	background: 1px solid #000;
+}
+
+section#QuienesSomos div div p{
+	position: relative;
+	text-align: justify;
+	top: 20px;
+	color: black;
+	margin-top: 1%;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	margin-left: 3%;
+}
+
+section#QuienesSomos div div div#imagenQuienesSomos{
+	margin-top: 1%;
+	float: left;
+	left: 3%;
+	top: 20px;
+	margin-right: 5%;
+	margin-bottom: 1%;
+
+}
+
+/*---------FIN SECTION QUIENES SOMOS--------*/
+
+/*----------SECTION SERVICIOS----------*/
+#Servicios #cajaServicios1{
+	background: white;
+	position: relative;
+}
+#Servicios #cajaServicios1 #cajahijaservicios{
+	position: relative;
+	margin: 4%;
+	box-shadow: 0px 8px 30px #222;
+}
+
+#Servicios #cajaServicios1 #cajahijaservicios #hijamenor1 ul li{
+	margin: 8px;
+	margin-bottom: 15px;
+}
+
+#Servicios #cajaServicios1 #cajahijaservicios #hijamayor1{
+	position: relative;
+}
+
+#Servicios #cajaServicios1 #cajahijaservicios #hijamayor1 ul li{
+	margin: 8px;
+}
+
+#Servicios #cajaServicios1 #cajahijaservicios #hijamayor1 ul li h1{
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: 20px;
+	color: #4d545a;
+	font-weight: 100;
+}
+
+#Servicios #cajaServicios1 #cajahijaservicios #hijamayor1 ul li p{
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	margin-bottom: 9.5px;
+	background: rgb(0, 0, 0, .7);
+	color: white;
+	width: 98.5%;
+	line-height: 60px;
+	text-align: center;
+}
+
+
+/*----------FIN SECTION SERVICIOS----------*/
+
+/*----------SECTION CONTACTENOS----------*/
+#contactenos div#cajaContactenos{
+	background: white;
+	position: relative;
+}
+#contactenos div#cajaContactenos #cajahija{
+	position: relative;
+	margin: 4%;
+}
+#contactenos div#cajaContactenos #cajahija #hijamenor{
+	position: relative;
+
+}
+
+#contactenos div#cajaContactenos #cajahija #hijamenor input{
+	width: 100%;
+	border: 0;
+	background: #dce9d7;
+	padding: 7%;
+}
+
+#contactenos div#cajaContactenos #cajahija #hijamenor input#nombre{
+	margin-bottom: 20px;
+}
+
+#contactenos div#cajaContactenos #cajahija #hijamenor input#email{
+	margin-bottom: 20px;
+}
+
+#contactenos div#cajaContactenos #cajahija #hijamayor
+{
+	position: relative;
+}
+
+#contactenos div#cajaContactenos #cajahija #hijamayor textarea{
+	position: relative;
+	width: 100%;
+	padding-bottom: 10%;
+	background: #dce9d7;
+	margin-bottom: 20px;
+	border: 0;
+}
+#contactenos div#cajaContactenos #cajahija #hijamayor input{
+	position: relative;
+	width: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 2.8%;
+	border: 0;
+}
+
+
+
+/*----------FIN SECTION CONTACTENOS----------*/
+
+/* ------------ BOTTOM ------------ */
+
+#bottom ul div{
+	padding: 10px;
+	background: #1d1d1d;
+}
+#bottom ul div li
+ h1{
+	text-align: center;
+	margin: 13px 18px;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#bottom ul div li hr{
+	background: 1px solid black;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#bottom ul div li ol{
+	top: 15px;
+	left: 17px;
+}
+
+#bottom ul div li ol li{
+	text-align: center;
+	list-style: inside;
+	color: white;
+	font-size: 15px;
+}
+
+#bottom ul div li ul#centrarimagenes{
+	/*background: white;*/
+	/*z-index: 1;*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#bottom ul div li img{
+	top: 25px;
+	left: 15px;
+	border: 4px solid white;
+	background: url(../img/imgGaleria.jpeg);
+	background-size: cover;
+}
+
+#bottom ul div ul li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	margin: 5px;
+}
+
+#bottom ul div ul li:first-child{
+	background: url(../img/facebook.jpeg);
+	background-size: cover;
+}
+
+#bottom ul div ul li:nth-child(2){
+	background: url(../img/iconoGoogle.jpeg);
+	background-size: cover;
+}
+
+#bottom ul div ul li:nth-child(3){
+	background: url(../img/iconoPinterest.jpeg);
+	background-size: cover;
+}
+
+#bottom ul div ul li:nth-child(4){
+	background: url(../img/iconoTwitter.jpeg);
+	background-size: cover;
+}
+
+#bottom ul div ul li a{
+
+}
+/* ------------ FIN BOTTOM ------------ */
+
+/* ------------ FOOTER ------------ */
+
+footer div{
+	position: relative;
+	background: black;
+	color: white;
+	line-height: 62px;
+	font-size: 15px;
+}
+
+footer div div{
+	text-align: center;
+	background: linear-gradient(120deg, #2980b9, #8e44ad);
+	color: transparent;
+	background-clip: text;
+	animation: animateColor 8s linear infinite;
+}
+
+@keyframes animateColor{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+
+footer div div p{
+	text-align: center;
+}
+
+/* ------------ FIN FOOTER ------------ */
